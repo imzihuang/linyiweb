@@ -1,0 +1,164 @@
+{
+  "total": 590,
+  "data": [
+    {
+      "sCode": "DS00000001",
+      "sName": "临沂店铺1",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000002",
+      "sName": "临沂店铺2",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000003",
+      "sName": "临沂店铺3",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000004",
+      "sName": "临沂店铺4",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000005",
+      "sName": "临沂店铺5",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000006",
+      "sName": "临沂店铺6",
+      "sAddress": "测试地址",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000007",
+      "sName": "临沂店铺7",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000008",
+      "sName": "临沂店铺8",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000009",
+      "sName": "临沂店铺9",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000010",
+      "sName": "临沂店铺10",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000011",
+      "sName": "临沂店铺11",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000012",
+      "sName": "临沂店铺12",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000013",
+      "sName": "临沂店铺13",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000014",
+      "sName": "临沂店铺14",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000015",
+      "sName": "临沂店铺15",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000016",
+      "sName": "临沂店铺16",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000017",
+      "sName": "临沂店铺17",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000018",
+      "sName": "临沂店铺18",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000019",
+      "sName": "临沂店铺19",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    },
+    {
+      "sCode": "DS00000020",
+      "sName": "临沂店铺20",
+      "sAddress": "测试地址",
+      "sDescribe": "主营商品描述",
+      "sTelephone": "12345678",
+      "logourl": "images/product/imgtmp-product.jpg"
+    }
+  ]
+}

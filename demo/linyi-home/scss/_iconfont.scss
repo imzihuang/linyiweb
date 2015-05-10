@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:20px;
+  font-style:normal;
+}
+.shop-main-info .iconfont{
+  margin-right:10px;
+  font-size:18px;
+  float: left;
+}
+.shop-main-info .iconfont-v1{
+  line-height: 37px;
+}
+.shop-main-info .iconfont-v2{
+  line-height: 39px;
+}
+.header-btn-lst{
+  .iconfont{
+    line-height: 35px;
+  }
+}
+.shop-addr{
+  .iconfont{
+    font-size:14px;
+    margin-right:3px;
+  }
+}
+.shop-phone{
+  .iconfont{
+    font-size:14px;
+    margin-right:3px;
+  }
+}

@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CleNut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.img_silder.js"></script>
+  <script type="text/javascript">
+  $(function(){
+      $('#silder').imgSilder({
+        s_width:'798px',
+        is_showTit:true,
+        s_times:5000,
+      });
+    });
+
+    $(document).ready(function(){
+      $(".market-li").hover(function(){
+        $(this).find(".inner-lst").show();
+      },function(){
+        $(this).find(".inner-lst").hide();
+      });
+    });
+  </script>
+</head>
+
+<body>
+<div id="wrap" class="shop">
+  <!-- header -->
+  <div id="header">
+    <div class="header-bar">
+      <ul class="header-btn-lst">
+        <li>
+          <a href="#" class="iconfont" title="用户">&#xe68a;</a>
+        </li>
+        <li>
+          <a href="#" class="iconfont" title="通知">&#xe612;</a>
+        </li>
+        <li>
+          <a href="#" class="iconfont" title="帮助">&#xe775;</a>
+        </li>
+        <li>
+          <a href="#" class="iconfont" title="注销">&#xe636;</a>
+        </li>
+      </ul>
+      <div class="search-block">
+        <input type="text" value="Search">
+        <input type="submit" value="Search" title="Search">
+      </div>
+      <h1 class="header-logo"><a href="index.html" title="Logo">LinYiLogo</a></h1>
+    </div>
+    <ul id="nav" class="mainnav2">
+      <li class="on"><a href="#" class="mainnav-tab">商铺商家</a></li>
+      <li><a href="index.html" class="mainnav-tab">首页</a></li>
+      <li><a href="#" class="mainnav-tab">联系我们</a></li>
+    </ul>
+  </div>
+  <!-- //header -->
+  <!-- container -->
+  <div id="container">
+    <div class="shop-container">
+      <div class="shop-thumb">
+        <img src="images/商铺照片.jpg" height="300" width="" alt="商铺照片">
+        <img src="images/test.jpg" height="360" width="758" alt="商铺照片">
+        <div class="shop-qr-container">
+          <p class="shop-qrcode-txt">扫一扫关注店铺</p>
+          <img src="images/qrcode/qr-tmp.jpg" height="100" width="100" alt="二维码">
+          <span class="shop-qrcode-tit">手机商铺</span>
+          <p class="shop-qrcode-txt">关注微信公众号</p>
+          <img src="images/qrcode/qr-tmp.jpg" height="100" width="100" alt="二维码">
+          <span class="shop-qrcode-tit">CleNut</span>
+        </div>
+      </div>
+
+      <div class="shop-info">
+        <ul class="shop-main-info">
+          <li><span class="iconfont">&#xe6ce;</span>店主名</li>
+          <li><span class="iconfont">&#xe6bb;</span>18512340987</li>
+          <li><span class="iconfont">&#xf0033;</span>6785-9876</li>
+          <li><span class="iconfont iconfont-v1">&#xe683;</span>qq123456</li>
+          <li><span class="iconfont iconfont-v1">&#xe615;</span>weixin</li>
+          <li><span class="iconfont iconfont-v2">&#xe624;</span>youxiang@email.com</li>
+          <li><span class="iconfont iconfont-v1">&#xe6ab;</span>临沂国际商贸城一区1楼1061</li>
+          <li><span class="iconfont">&#xe652;</span><p>毛绒挂件 钱包 笔袋 毛额背包 毛绒手机座</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="title">
+      <h2>商品列表</h2>
+    </div>
+    <div class="sort-bx">
+      <div class="sort-section">
+        <span>一楼：</span>
+        <a href="#">玩具</a>
+        <a href="#" class="on">仿真花</a>
+        <a href="#">花类配件</a>
+        <a href="#">头饰</a>
+      </div>
+      <div class="sort-section">
+        <span>二楼：</span>
+        <a href="#">玩具</a>
+        <a href="#">仿真花</a>
+        <a href="#">花类配件</a>
+        <a href="#">头饰</a>
+        <a href="#">玩具</a>
+        <a href="#">仿真花</a>
+      </div>
+      <div class="sort-section">
+        <span>三楼：</span>
+        <a href="#">玩具</a>
+        <a href="#">仿真花</a>
+        <a href="#">花类配件</a>
+        <a href="#">头饰</a>
+      </div>
+      <div class="sort-section">
+        <span>四楼：</span>
+        <a href="#">玩具</a>
+        <a href="#">仿真花</a>
+        <a href="#">花类配件</a>
+        <a href="#">头饰</a>
+        <a href="#">玩具</a>
+        <a href="#">仿真花</a>
+        <a href="#">花类配件</a>
+        <a href="#">头饰</a>
+      </div>
+
+    </div>
+    <div class="product-bx">
+      <ul class="product-grid">
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product.jpg" height="122" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜/儿童望远镜/双筒望远镜/高清望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product2.jpg" height="182" width="137" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字很长很长很长很长很长很长</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product3.jpg" height="150" width="150" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">义乌市吉发袜厂</a></div>
+          <div class="product-tit"><a href="#">高含棉 会呼吸的运动袜子 防臭 有效吸湿 防滑抗菌保健全棉S…</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product4.jpg" height="182" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">俊恒工艺</a></div>
+          <div class="product-tit"><a href="#">雕花创意环保简易小书架 镂空置物架 创意收创意收创意收...</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product.jpg" height="122" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜/儿童望远镜/双筒望远镜/高清望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product2.jpg" height="182" width="137" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字很长很长很长很长很长很长</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product3.jpg" height="150" width="150" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">义乌市吉发袜厂</a></div>
+          <div class="product-tit"><a href="#">高含棉 会呼吸的运动袜子 防臭 有效吸湿 防滑抗菌保健全棉S…</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product4.jpg" height="182" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">俊恒工艺</a></div>
+          <div class="product-tit"><a href="#">雕花创意环保简易小书架 镂空置物架 创意收创意收创意收...</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product.jpg" height="122" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜/儿童望远镜/双筒望远镜/高清望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product2.jpg" height="182" width="137" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字很长很长很长很长很长很长</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product3.jpg" height="150" width="150" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">义乌市吉发袜厂</a></div>
+          <div class="product-tit"><a href="#">高含棉 会呼吸的运动袜子 防臭 有效吸湿 防滑抗菌保健全棉S…</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product4.jpg" height="182" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">俊恒工艺</a></div>
+          <div class="product-tit"><a href="#">雕花创意环保简易小书架 镂空置物架 创意收创意收创意收...</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product.jpg" height="122" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜/儿童望远镜/双筒望远镜/高清望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product2.jpg" height="182" width="137" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字很长很长很长很长很长很长</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product3.jpg" height="150" width="150" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">义乌市吉发袜厂</a></div>
+          <div class="product-tit"><a href="#">高含棉 会呼吸的运动袜子 防臭 有效吸湿 防滑抗菌保健全棉S…</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product4.jpg" height="182" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">俊恒工艺</a></div>
+          <div class="product-tit"><a href="#">雕花创意环保简易小书架 镂空置物架 创意收创意收创意收...</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product.jpg" height="122" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜/儿童望远镜/双筒望远镜/高清望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product2.jpg" height="182" width="137" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">店铺名字很长很长很长很长很长很长</a></div>
+          <div class="product-tit"><a href="#">6x30迷彩望远镜</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product3.jpg" height="150" width="150" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">义乌市吉发袜厂</a></div>
+          <div class="product-tit"><a href="#">高含棉 会呼吸的运动袜子 防臭 有效吸湿 防滑抗菌保健全棉S…</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="product-thumb">
+            <div class="product-img">
+              <img src="images/product/imgtmp-product4.jpg" height="182" width="182" alt="商品图片">
+            </div>
+          </a>
+          <div class="product-shop"><a href="#">俊恒工艺</a></div>
+          <div class="product-tit"><a href="#">雕花创意环保简易小书架 镂空置物架 创意收创意收创意收...</a></div>
+          <div class="product-txt">
+            <span class="product-limit">20起购</span>
+            <span class="product-price">&yen; 18.80</span>
+          </div>
+        </li>
+      </ul>
+      <div class="play_list_pg">
+  		  <a href="#" class="btn_pre">上一页</a>
+  		  <a href="#" class="btn_pg_num">1</a>
+  		  <a href="#" class="btn_pg_num on">2</a>
+  		  <a href="#" class="btn_pg_num">3</a>
+  		  <a href="#" class="btn_pg_num">4</a>
+  		  <a href="#" class="btn_pg_num">5</a>
+  		  <a href="#" class="btn_pg_num">6</a>
+  		  <a href="#" class="btn_pg_num">7</a>
+  		  <a href="#" class="btn_pg_num">8</a>
+  		  <span class="pg_dot">...</span>
+        <a href="#" class="btn_pg_num">19</a>
+  		  <a href="#" class="btn_pg_num">20</a>
+  		  <a href="#" class="btn_nxt">下一页</a>
+  		</div>
+    </div>
+  </div>
+  <!-- //container -->
+  <!-- footer -->
+  <div id="footer">
+    <div class="ft-bx">
+      <p>Copyright 2010 sgcg.com.cn,All right reserverd.<br>北京首钢建设集团有限公司 版权所有<br><a href="#">京ICP备12036434号</a>  京公网安备11040100008号</p>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- goto_top -->
+  <a href="#" class="btn_gotop" style="display:none"><span class="btn_gotop_arr">返回顶部</span></a>
+  <!-- //goto_top -->
+</div>
+</body>
+</html>

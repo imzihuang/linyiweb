@@ -1,0 +1,11 @@
+.myexhibition{
+    //position: absolute;
+}
+
+.tb_exhibition{
+    display:none;
+}
+
+.tb_show{
+    display:block;
+}

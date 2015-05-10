@@ -1,0 +1,107 @@
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ static_url("dist/css/bootstrap.min.css")}}" rel="stylesheet">
+
+    <link href="{{ static_url("assets/css/docs.min.css")}}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="signin.css" rel="stylesheet"> -->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="{{ static_url("assets/js/ie8-responsive-file-warning.js")}}"></script><![endif]-->
+    <script src="{{ static_url("assets/js/ie-emulation-modes-warning.js")}}"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        @media (min-width: 768px) {
+          .container-narrow {
+            max-width: 860px;
+          }
+        }
+    </style>
+    </head>
+
+  <body>
+    <header class="navbar bs-docs-nav" id="top" role="banner">
+        <nav class="navbar  navbar-static-top" role="navigation" style="margin-bottom: 0px;">
+            <div class="container" style="height: 51px;">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/">华芯---装修之家</a>
+                </div>
+                <ul id="navbar" class="navbar-collapse collapse">
+                  <form class="navbar-form navbar-right" role="form">
+                      <a class="btn btn-success" href="/show_login">登录</a>
+                      <a class="btn btn-success" href="/show_signin">注册</a>
+                      <span class="btn">联系热线：400</span>
+                  </form>
+                </ul><!--/.navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+
+    <div class="bs-docs-header" id="content" style="margin-bottom:0px;padding:30px">
+        <div class="container">
+          <h1>装修之家</h1>
+          <p>找装修，来装修之家！找工程，来装修之家！</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <h1>装修之家</h1>
+                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                </div>
+            </div>
+            <div class="col-md-4" role="login">
+                <div class="navbar bs-docs-nav" id="" role="banner" style="padding-top:30px">
+                    <ul class="nav nav-tabs nav-pills nav-justified" role="tablist" style="font-size: 16px;">
+                        <li class="hourse active"><a>户主</a></li>
+                    </ul>
+                </div>
+                <div class="signin_hourse">
+                    <input id="h_email" type="username" class="form-control" placeholder="邮箱" required autofocus>
+                    <input id="h_username" type="username" class="form-control" placeholder="用户名" required>
+                    <input id="h_password" type="password" class="form-control" placeholder="密码" required>
+                    <input id="h_second_pwd" type="password" class="form-control" placeholder="确认密码" required>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> 我已阅读并接受<a href="#">《协议》</a>
+                  </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="button" onclick="submit_info()">注册</button>
+            </div>
+        </div>
+
+    </div> <!-- /container -->
+
+
+    <script src="{{ static_url("jquery-2.1.1.js")}}"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{{ static_url("assets/js/ie10-viewport-bug-workaround.js")}}"></script>
+
+    <script src="{{ static_url("js_page/signin.js")}}"></script>
+  </body>
+</html>
