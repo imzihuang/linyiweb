@@ -25,7 +25,7 @@
             params.rows = arg.rows;
             $.ajax({
                 url: arg.url,
-                type: "post",
+                type: "GET",
                 data: params,
                 dataType: "json",
                 async: false,

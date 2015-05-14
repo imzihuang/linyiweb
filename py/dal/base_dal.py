@@ -45,7 +45,7 @@ class ShopDALC(DALC):
     # 商铺
     def __init__(self):
         super(ShopDALC,self).__init__()
-        self.table='BS_Shop'
+        self.table='v_shop'
         self.columns=(
             'sCode',
             'sName',
@@ -65,7 +65,9 @@ class ShopDALC(DALC):
             'dtCreate',
             'dtCheckIn',
             'bCancel',
-            'sRemark'
+            'sRemark',
+            'sBL_Url',
+            'sLoge_Url'
         )
 
 class Shop_GoodsDALC(DALC):
