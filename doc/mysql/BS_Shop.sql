@@ -29,3 +29,70 @@ PRIMARY KEY (`Id`)-- 设为主键
 
 INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
 VALUES ('SP00000001','第一家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000002','第二家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000003','第三家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000004','第四家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000005','第五家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000006','第六家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000007','第七家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000008','第八家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000009','第九家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000010','第十家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000011','第十一家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000012','第十二家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000013','第十三家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000014','第十四店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000015','第十五店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000016','第十六家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000017','第十七家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000018','第十八家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000019','第十九家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000020','第二十家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
+INSERT INTO `BS_Shop` (`sCode`,`sName`,`sUserCode`,`sPFSCCode`,`sAddress`,`sTelephone`,`sMobile`,`sMobile1`,`sQQ`,`sQQ1`,`sMSN`,`sWeixin`,`sBusinessLicense`,`sBL_Img_Code`,`sShopLogoCode`,`sClassCode`,`nScale`,`dtCreate`,`dtCheckIn`)
+VALUES ('SP00000021','第二十一家店','BS00000001','PF00000001','临沂','17686554678','17678339402','17678339402','1234556','23575','3543256','2343w3','er34567','R00000001','R00000002','SC000001',2,'2014-12-30 14:34:31','2014-12-30 14:34:31');
+
