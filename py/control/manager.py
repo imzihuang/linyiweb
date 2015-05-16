@@ -1,5 +1,5 @@
-#encoding=utf-8
-
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 from py.common.comm import *
 class Manager(object):
     def getData(self, dicdata = None, key = "", value = "", andor = True):#获取数据集合
