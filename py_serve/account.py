@@ -1,5 +1,5 @@
-
-#coding:utf-8
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 from tornado.web import RequestHandler
 import simplejson
 from py.common.config.config_ini import Config_INI
