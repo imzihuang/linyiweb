@@ -1,4 +1,5 @@
-# coding:utf-8
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
 from manager import Manager
 from py.dal.base_dal import ShopDALC

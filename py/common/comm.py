@@ -1,5 +1,7 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 __author__ = 'imzihuang'
-# encoding=utf-8
+
 
 #公共方法
 #遍历字典dic所有key，用逗号拼接

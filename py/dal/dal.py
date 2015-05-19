@@ -1,4 +1,5 @@
-#encoding=utf-8
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 from py.common.config.config_ini import Config_INI
 import torndb
 

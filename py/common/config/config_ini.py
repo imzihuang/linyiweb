@@ -1,5 +1,5 @@
-#coding:utf-8
-
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 from ConfigParser import ConfigParser
 import re
 from functools import partial
