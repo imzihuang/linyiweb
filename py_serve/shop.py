@@ -1,4 +1,5 @@
-#coding:utf-8
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
 from tornado.web import RequestHandler
 from py.common.response_entity import res_entity

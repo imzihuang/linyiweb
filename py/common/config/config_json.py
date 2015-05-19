@@ -1,5 +1,7 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 __author__ = 'imzihuang'
-#coding:utf-8
+
 import simplejson
 from os import path
 
