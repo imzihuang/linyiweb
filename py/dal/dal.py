@@ -10,8 +10,15 @@ mysql_db = torndb.Connection(**_dic_con)
 
 class DALC(object):#数据操作类
     def __init__(self):
-        self.table=""#子类中必须定义table
-        self.columns=()
+        self.table = ""#子类中必须定义table
+        self.view = ""
+        self.columns = ()
+        self._init()
+
+    def _init(self):
+        if not self.view:
+            self.view = self.table
+
 
     def exec_query(self,query, *parameters, **kwparameters):
         #执行一个查询语句

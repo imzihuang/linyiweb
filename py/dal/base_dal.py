@@ -3,7 +3,7 @@
 from dal import DALC
 
 class UserDALC(DALC):
-    #用户基础数据类
+    # 用户基础数据类
     def __init__(self):
         super(UserDALC, self).__init__()
         self.table="BS_User"
@@ -46,7 +46,8 @@ class ShopDALC(DALC):
     # 商铺
     def __init__(self):
         super(ShopDALC,self).__init__()
-        self.table='v_shop'
+        self.table = 'BS_Shop'
+        self.view = 'v_shop'
         self.columns=(
             'sCode',
             'sName',
