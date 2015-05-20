@@ -7,6 +7,11 @@ from py.common.response_entity import res_entity
 from py.control.user_manager import UserManager
 from py.common.myexception import MyException
 from py.common.convert import bs2utf8
+from py.common.redis.redis_client import Redis
+
+
+redis_conf = Config_INI('configs/redis.ini')
+redis_account = Redis(redis_conf.get('account', 'url'))
 
 common_conf = Config_INI('configs/common.ini')
 
@@ -17,7 +22,7 @@ class AccountHandler(RequestHandler):
     def post(self, method):
         _user_man = UserManager()
         if method == 'login':
-            # 登录
+            # 登录redis.ini
             username = bs2utf8(self.get_argument('username'))
             pwd=bs2utf8(self.get_argument('pwd'))
             try:
