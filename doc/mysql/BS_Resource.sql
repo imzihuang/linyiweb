@@ -15,7 +15,7 @@ PRIMARY KEY (`Id`)-- 设为主键
 
 
 INSERT INTO `BS_Resource` (`sCode`,`sName`,`sDescription`,`nType`,`sUrl`,`dtCreate`)
-VALUES ('R00000001','图片1','店铺营业执照',0,'images/product/imgtmp-product.jpg','2014-12-30 14:34:31');
+VALUES ('R00000001','图片1','店铺营业执照',0,'static/load_img/product/imgtmp-product.jpg','2014-12-30 14:34:31');
 
 INSERT INTO `BS_Resource` (`sCode`,`sName`,`sDescription`,`nType`,`sUrl`,`dtCreate`)
-VALUES ('R00000002','图片2','店铺logo',0,'images/product/imgtmp-product.jpg','2014-12-30 14:34:31');
+VALUES ('R00000002','图片2','店铺logo',0,'static/load_img/product/imgtmp-product.jpg','2014-12-30 14:34:31');
