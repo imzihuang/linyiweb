@@ -2,9 +2,84 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>店铺列表</title>
+	<title>店铺列表</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="{{ static_url("css/style.css")}}" rel="stylesheet">
+    <script src="{{ static_url("js_comm/jquery-2.1.1.js")}}"></script>
+    <script type="text/javascript" src="{{ static_url("js_comm/jquery.img_silder.js")}}"></script>
+    <script type="text/javascript" src="{{ static_url("plug-in/shop_list/shop_list.js")}}"></script>
+    <script type="text/javascript" src="{{ static_url("js_page/shoplist.js")}}"></script>
 </head>
 <body>
-
+<div id="wrap" class="shop">
+    <div id="header">
+        <div class="header-bar">
+          <ul class="header-btn-lst">
+            <li>
+              <a href="#" class="iconfont" title="用户">&#xe68a;</a>
+            </li>
+            <li>
+              <a href="#" class="iconfont" title="通知">&#xe612;</a>
+            </li>
+            <li>
+              <a href="#" class="iconfont" title="帮助">&#xe775;</a>
+            </li>
+            <li>
+              <a href="#" class="iconfont" title="注销">&#xe636;</a>
+            </li>
+          </ul>
+          <div class="search-block">
+            <input type="text" value="Search">
+            <input type="submit" value="Search" title="Search">
+          </div>
+          <h1 class="header-logo"><a href="index.html" title="Logo">LinYiLogo</a></h1>
+        </div>
+        <ul id="nav" class="mainnav2">
+          <li class="on"><a href="/show_shop_list" class="mainnav-tab">商铺商品</a></li>
+          <li><a href="/" class="mainnav-tab">首页</a></li>
+          <li><a href="#" class="mainnav-tab">联系我们</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div class="sort-bx">
+          <div class="sort-section">
+            <span>筛选1：</span>
+            <a href="#">玩具</a>
+            <a href="#" class="on">仿真花</a>
+            <a href="#">花类配件</a>
+            <a href="#">头饰</a>
+          </div>
+          <div class="sort-section">
+            <span>筛选2：</span>
+            <a href="#">玩具</a>
+            <a href="#">仿真花</a>
+            <a href="#">花类配件</a>
+            <a href="#">头饰</a>
+            <a href="#">玩具</a>
+            <a href="#">仿真花</a>
+          </div>
+          <div class="sort-section">
+            <span>筛选3：</span>
+            <a href="#">玩具</a>
+            <a href="#">仿真花</a>
+            <a href="#">花类配件</a>
+            <a href="#">头饰</a>
+          </div>
+          <div class="sort-section">
+            <span>筛选4：</span>
+            <a href="#">玩具</a>
+            <a href="#">仿真花</a>
+            <a href="#">花类配件</a>
+            <a href="#">头饰</a>
+            <a href="#">玩具</a>
+            <a href="#">仿真花</a>
+            <a href="#">花类配件</a>
+            <a href="#">头饰</a>
+          </div>
+        </div>
+        <div id="shop_id" class="my_shop_list"></div>
+    </div>
+</div>
 </body>
 </html>

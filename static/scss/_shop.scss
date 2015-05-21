@@ -1,0 +1,67 @@
+.shop-container{
+  overflow: hidden;
+  margin-top: 20px;
+}
+.shop-info{
+  float: left;
+  width:230px;
+  height: 356px;
+  padding:2px 0 2px 2px;
+  margin-left:10px;
+  position: relative;
+  color:#4d90fe;
+}
+.shop-main-info{
+  padding-top:10px;
+  font-size:12px;
+  li{
+    overflow: hidden;
+    padding: 0 5px 0 17px;
+    line-height:35px;
+    &:hover{
+      background-color:#397ae6;
+    }
+  }
+  p{
+    line-height: 18px;
+    overflow: hidden;
+    padding:8px 0;
+  }
+}
+.shop .mainnav .on{
+  width:232px;
+}
+.header-btn-lst{
+  li{
+    margin-right:10px;
+  }
+}
+.shop-thumb{
+  position: relative;
+  width:758px;
+  height: 360px;
+  overflow: hidden;
+  float: left;
+}
+.shop-qr-container{
+  position: absolute;
+  top:20px;
+  right:20px;
+  width:100px;
+  height: 300px;
+  font-size:12px;
+}
+.shop-qrcode-tit{
+  color:#ccc;
+  text-align: center;
+  width:100px;
+  display: block;
+  margin:5px 0 20px;
+}
+.shop-qrcode-txt{
+  color:#999;
+  text-align: center;
+  width:100px;
+  display: block;
+  margin:5px 0;
+}

@@ -20,6 +20,9 @@
         }
         if (arg.url != null) {
             params = arg.params;
+            if (params == null){
+                params = {}
+            }
             params.page = arg.page;
             params.rows = arg.rows;
             $.ajax({

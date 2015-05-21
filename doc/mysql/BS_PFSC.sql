@@ -5,7 +5,7 @@ Create TABLE `BS_PFSC` (
 `sName` varchar(50) not NULL,-- 名称
 `sAddress` varchar(100) DEFAULT NULL,-- 批发城地址
 `sTelephone` varchar(25) DEFAULT NULL,-- 批发城联系方式
-`sDescription` varchar(200) DEFAULT NULL, -- 描述
+`sDescription` varchar(500) DEFAULT NULL, -- 描述
 `dtCreate` datetime not NULL,-- 创建日期
 `bCancel` bit DEFAULT 0, -- 是否作废，默认不作废
 `sRemark` varchar(500) DEFAULT NULL,-- 备注

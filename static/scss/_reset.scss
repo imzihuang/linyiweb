@@ -1,0 +1,61 @@
+html {
+	color: #333;
+	background: #fff;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font:14px Microsoft Yahei, Arial, sans-serif;
+}
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, form, p, th, td {
+	margin: 0;
+	padding: 0;
+}
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+input::-ms-clear, input::-ms-reveal {
+	display: none;
+}
+textarea {
+	overflow: auto;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  &:hover{
+    color:#397ae6;
+    text-decoration: underline;
+  }
+}
+i, em {
+	font-style: normal;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}

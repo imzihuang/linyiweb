@@ -27,11 +27,13 @@ if __name__=='__main__':
         (r'/',TestHandelr),
         (r'/show_login',ShowLoginHandler),
         (r'/show_signin',ShowSigninHandelr),
+        (r'/show_shop_list',ShowShoplistHandelr),
         (r'/area/(?P<method>[_a-z\d]+)',AreaHandler),
     ]
 
     ajax_list=[
         (r'/account/(?P<method>[_a-z\d]+)',AccountHandler),
+        (r'/shop/(?P<method>[_a-z\d]+)',ShopHandler),
     ]
 
     handlers_list=page_list+ajax_list
