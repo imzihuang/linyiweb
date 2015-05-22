@@ -69,7 +69,8 @@ class ShopDALC(DALC):
             'bCancel',
             'sRemark',
             'sBL_Url',
-            'sLoge_Url'
+            'sLoge_Url',
+            'sGoodsCode'
         )
 
 class Shop_GoodsDALC(DALC):

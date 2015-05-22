@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CleNut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.img_silder.js"></script>
+  <script type="text/javascript">
+  $(function(){
+      $('#silder').imgSilder({
+        s_width:'798px',
+        is_showTit:true,
+        s_times:5000,
+      });
+    });
+
+    $(document).ready(function(){
+      $(".market-li").hover(function(){
+        $(this).find(".inner-lst").show();
+      },function(){
+        $(this).find(".inner-lst").hide();
+      });
+    });
+  </script>
+</head>
+
+<body>
+<div id="wrap" class="">
+  <!-- header -->
+  <div id="header">
+    <div class="header-bar">
+      <ul class="header-btn-lst">
+        <li>
+          <a href="#" class="header-btn-tab">登陆</a>
+        </li>
+        <li>
+          <a href="#" class="header-btn-tab">注册</a>
+        </li>
+      </ul>
+      <div class="search-block">
+        <input type="text" value="Search">
+        <input type="submit" value="Search" title="Search">
+      </div>
+      <h1 class="header-logo"><a href="index.html" title="Logo">CleNut</a></h1>
+    </div>
+    <ul id="nav" class="mainnav">
+      <li class="on"><a href="#" class="mainnav-tab">商铺商品</a></li>
+      <li><a href="index.html" class="mainnav-tab">首页</a></li>
+      <li><a href="#" class="mainnav-tab">联系我们</a></li>
+    </ul>
+  </div>
+  <!-- //header -->
+  <!-- container -->
+  <div id="container">
+    <div class="top-container">
+      <ul class="market-lst">
+        <li class="market-li">
+          <a href="#" class="market-tab">临沂小商品城</a>
+          <ul class="inner-lst">
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+          </ul>
+        </li>
+        <li class="market-li">
+          <a href="#" class="market-tab">临沂家电批发城</a>
+          <ul class="inner-lst">
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+          </ul>
+        </li>
+        <li class="market-li">
+          <a href="#" class="market-tab">临沂灯具城</a>
+          <ul class="inner-lst">
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+          </ul>
+        </li>
+        <li class="market-li">
+          <a href="#" class="market-tab">教育用品采购基地</a>
+          <ul class="inner-lst">
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+          </ul>
+        </li>
+        <li class="market-li">
+          <a href="#" class="market-tab">临沂汽摩配城</a>
+          <ul class="inner-lst">
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+          </ul>
+        </li>
+        <li class="market-li">
+          <a href="#" class="market-tab">临沂美多商贸城</a>
+          <ul class="inner-lst">
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">电视</a></li>
+          </ul>
+        </li>
+        <li class="market-li market-lst-last">
+          <a href="#" class="market-tab">临沂申科电子城</a>
+          <ul class="inner-lst">
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">手机</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- banner -->
+      <div class="banner">
+        <div class="silder" id="silder" style="width: 100%;">
+          <ul class="silder_list" id="silder_list" style="width: 100%;">
+            <li class="silderbg1" style="display: list-item;"></li>
+            <li class="silderbg2" style="display: none;"></li>
+            <li class="silderbg3" style="display: none;"></li>
+            <li class="silderbg4" style="display: none;"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- //banner -->
+    </div>
+    <!-- ad -->
+    <div class="ad-cantainer">
+      <div class="side">
+        <div class="side-inner">
+          <div class="side-inner-banner">
+            <a href="#" title="" target="_blank"><img src="http://img20.360buyimg.com/da/jfs/t937/62/482735252/15505/fb8f019b/55277c4eNbef21626.jpg" width="330" height="475" alt=""></a>
+          </div>
+          <ul class="themes">
+            <li class="fore1">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>男装</span>
+              </a>
+            </li>
+            <li class="fore2">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>女装</span>
+              </a>
+            </li>
+            <li class="fore3">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>内衣</span>
+              </a>
+            </li>
+            <li class="fore4">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>鞋靴</span>
+              </a>
+            </li>
+            <li class="fore5">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>箱包</span>
+              </a>
+            </li>
+            <li class="fore6">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>奢侈品</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="words">
+            <li class="fore1"><a href="#" target="_blank">服装城</a><a href="#" target="_blank">京东衬衫节</a><a href="#" target="_blank">女式衬衫</a><a href="#" target="_blank">品质男装</a><a href="#" target="_blank">时尚男鞋</a><a href="#" target="_blank">臻品女鞋</a><a href="#" target="_blank">舒适内衣</a><a href="#" target="_blank">太阳镜</a></li>
+            <li class="fore2"><a href="#" target="_blank">黄金饰品</a><a href="#" target="_blank">吊坠/项链</a><a href="#" target="_blank">时尚女包</a><a href="#" target="_blank">大牌男包</a><a href="#" target="_blank">拉杆箱</a><a href="#" target="_blank">奢品箱包</a><a href="#" target="_blank">火机烟具</a><a href="#" target="_blank">古董把玩</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ad-area">
+        <div class="ad-bx">
+          <a href="#" class="ad-bx-thumb"><img src="images/ad/ad.jpg" height="157" width="439" alt="广告"></a>
+          <a href="#" class="ad-bx-thumb2"><img src="images/ad/ad3.jpg" height="315" width="439" alt="广告"></a>
+        </div>
+        <ul class="ad-bx2">
+          <li><a href="#"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+          <li><a href="#"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+          <li><a href="#" class="ad-bx-last-thumb"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- //ad -->
+    <!-- brands -->
+    <div class="brands">
+      <ul>
+        <li class="fore1"><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+      </ul>
+    </div>
+    <!-- //brands -->
+    <!-- ad -->
+    <div class="ad-cantainer">
+      <div class="side">
+        <div class="side-inner">
+          <div class="side-inner-banner">
+            <a href="#" title="" target="_blank"><img src="http://img20.360buyimg.com/da/jfs/t937/62/482735252/15505/fb8f019b/55277c4eNbef21626.jpg" width="330" height="475" alt=""></a>
+          </div>
+          <ul class="themes">
+            <li class="fore1">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>男装</span>
+              </a>
+            </li>
+            <li class="fore2">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>女装</span>
+              </a>
+            </li>
+            <li class="fore3">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>内衣</span>
+              </a>
+            </li>
+            <li class="fore4">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>鞋靴</span>
+              </a>
+            </li>
+            <li class="fore5">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>箱包</span>
+              </a>
+            </li>
+            <li class="fore6">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>奢侈品</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="words">
+            <li class="fore1"><a href="#" target="_blank">服装城</a><a href="#" target="_blank">京东衬衫节</a><a href="#" target="_blank">女式衬衫</a><a href="#" target="_blank">品质男装</a><a href="#" target="_blank">时尚男鞋</a><a href="#" target="_blank">臻品女鞋</a><a href="#" target="_blank">舒适内衣</a><a href="#" target="_blank">太阳镜</a></li>
+            <li class="fore2"><a href="#" target="_blank">黄金饰品</a><a href="#" target="_blank">吊坠/项链</a><a href="#" target="_blank">时尚女包</a><a href="#" target="_blank">大牌男包</a><a href="#" target="_blank">拉杆箱</a><a href="#" target="_blank">奢品箱包</a><a href="#" target="_blank">火机烟具</a><a href="#" target="_blank">古董把玩</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ad-area">
+        <div class="ad-bx">
+          <a href="#" class="ad-bx-thumb"><img src="images/ad/ad.jpg" height="157" width="439" alt="广告"></a>
+          <a href="#" class="ad-bx-thumb2"><img src="images/ad/ad3.jpg" height="315" width="439" alt="广告"></a>
+        </div>
+        <ul class="ad-bx2">
+          <li><a href="#"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+          <li><a href="#"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+          <li><a href="#" class="ad-bx-last-thumb"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- //ad -->
+    <!-- brands -->
+    <div class="brands">
+      <ul>
+        <li class="fore1"><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll1.jpg" width="83" height="35" alt=""></a></li>
+        <li class=""><a href="#" target="_blank" title=""><img src="images/ad-samll2.jpg" width="83" height="35" alt=""></a></li>
+      </ul>
+    </div>
+    <!-- //brands -->
+    <!-- ad -->
+    <div class="ad-cantainer">
+      <div class="side">
+        <div class="side-inner">
+          <div class="side-inner-banner">
+            <a href="#" title="" target="_blank"><img src="http://img20.360buyimg.com/da/jfs/t937/62/482735252/15505/fb8f019b/55277c4eNbef21626.jpg" width="330" height="475" alt=""></a>
+          </div>
+          <ul class="themes">
+            <li class="fore1">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>男装</span>
+              </a>
+            </li>
+            <li class="fore2">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>女装</span>
+              </a>
+            </li>
+            <li class="fore3">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>内衣</span>
+              </a>
+            </li>
+            <li class="fore4">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>鞋靴</span>
+              </a>
+            </li>
+            <li class="fore5">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>箱包</span>
+              </a>
+            </li>
+            <li class="fore6">
+              <a target="_blank" href="#">
+                <i class="icon"></i>
+                <span>奢侈品</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="words">
+            <li class="fore1"><a href="#" target="_blank">服装城</a><a href="#" target="_blank">京东衬衫节</a><a href="#" target="_blank">女式衬衫</a><a href="#" target="_blank">品质男装</a><a href="#" target="_blank">时尚男鞋</a><a href="#" target="_blank">臻品女鞋</a><a href="#" target="_blank">舒适内衣</a><a href="#" target="_blank">太阳镜</a></li>
+            <li class="fore2"><a href="#" target="_blank">黄金饰品</a><a href="#" target="_blank">吊坠/项链</a><a href="#" target="_blank">时尚女包</a><a href="#" target="_blank">大牌男包</a><a href="#" target="_blank">拉杆箱</a><a href="#" target="_blank">奢品箱包</a><a href="#" target="_blank">火机烟具</a><a href="#" target="_blank">古董把玩</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ad-area">
+        <div class="ad-bx">
+          <a href="#" class="ad-bx-thumb"><img src="images/ad/ad.jpg" height="157" width="439" alt="广告"></a>
+          <a href="#" class="ad-bx-thumb2"><img src="images/ad/ad3.jpg" height="315" width="439" alt="广告"></a>
+        </div>
+        <ul class="ad-bx2">
+          <li><a href="#"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+          <li><a href="#"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+          <li><a href="#" class="ad-bx-last-thumb"><img src="images/ad/ad2.jpg" height="199" width="266" alt="广告"></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- //ad -->
+  </div>
+  <!-- //container -->
+  <!-- footer -->
+  <div id="footer">
+    <div class="ft-bx">
+      <p>Copyright 2010 sgcg.com.cn,All right reserverd.<br>北京首钢建设集团有限公司 版权所有<br><a href="#">京ICP备12036434号</a>  京公网安备11040100008号</p>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- goto_top -->
+  <a href="#" class="btn_gotop" style="display:none"><span class="btn_gotop_arr">返回顶部</span></a>
+  <!-- //goto_top -->
+</div>
+</body>
+</html>

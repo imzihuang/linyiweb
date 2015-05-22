@@ -64,7 +64,6 @@ class DALC(object):#数据操作类
 
     def insert(self,params,values):
         sql="insert into {0} ({1}) values({2})".format(self.view,params,values)
-        #"insert into "+self.table+" ("+params+") values("+values+")"
         mysql_db.insert(sql)
 
     def update(self,updatevaules,condition):
