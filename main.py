@@ -24,7 +24,7 @@ if __name__=='__main__':
         'static_path':os.path.join(os.path.dirname(__file__),"static")
     }
     page_list=[
-        (r'/',TestHandelr),
+        (r'/',HomeHandler),
         (r'/show_login',ShowLoginHandler),
         (r'/show_signin',ShowSigninHandelr),
         (r'/show_shop_list',ShowShoplistHandelr),

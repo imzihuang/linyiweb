@@ -3,7 +3,4 @@
 from show_login import ShowLoginHandler
 from show_signin import ShowSigninHandelr
 from show_shop_list import ShowShoplistHandelr
-
-
-
-from test import TestHandelr
+from home import HomeHandler

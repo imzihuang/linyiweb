@@ -5,26 +5,26 @@
 	<title>CleNut</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
-  <script type="text/javascript" src="js/jquery.img_silder.js"></script>
-  <script type="text/javascript">
-  $(function(){
-      $('#silder').imgSilder({
-        s_width:'798px',
-        is_showTit:true,
-        s_times:5000,
+	<link href="{{ static_url("css/style.css")}}" rel="stylesheet">
+    <script src="{{ static_url("js_comm/jquery-2.1.1.js")}}"></script>
+    <script type="text/javascript" src="{{ static_url("js_comm/jquery.img_silder.js")}}"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#silder').imgSilder({
+          s_width:'798px',
+          is_showTit:true,
+          s_times:5000,
+        });
       });
-    });
 
-    $(document).ready(function(){
-      $(".market-li").hover(function(){
-        $(this).find(".inner-lst").show();
-      },function(){
-        $(this).find(".inner-lst").hide();
+      $(document).ready(function(){
+        $(".market-li").hover(function(){
+          $(this).find(".inner-lst").show();
+        },function(){
+          $(this).find(".inner-lst").hide();
+        });
       });
-    });
-  </script>
+    </script>
 </head>
 
 <body>

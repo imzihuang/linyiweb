@@ -1,8 +1,7 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*
+#coding:utf-8
 
 from tornado.web import RequestHandler
 
-class TestHandelr(RequestHandler):
+class HomeHandler(RequestHandler):
     def get(self):
         self.render('home.html')
