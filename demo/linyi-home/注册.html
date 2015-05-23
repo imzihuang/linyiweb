@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CleNut</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.img_silder.js"></script>
+  <script type="text/javascript">
+  $(function(){
+      $('#silder').imgSilder({
+        s_width:'798px',
+        is_showTit:true,
+        s_times:5000,
+      });
+    });
+
+    $(document).ready(function(){
+      $(".market-li").hover(function(){
+        $(this).find(".inner-lst").show();
+      },function(){
+        $(this).find(".inner-lst").hide();
+      });
+    });
+  </script>
+</head>
+
+<body>
+<div id="wrap" class="">
+  <!-- header -->
+  <div id="header">
+    <div class="header-bar">
+      <ul class="header-btn-lst">
+        <li>
+          <a href="#" class="iconfont" title="用户"></a>
+        </li>
+        <li>
+          <a href="#" class="iconfont" title="通知"></a>
+        </li>
+        <li>
+          <a href="#" class="iconfont" title="帮助"></a>
+        </li>
+        <li>
+          <a href="#" class="iconfont" title="注销"></a>
+        </li>
+      </ul>
+      <div class="search-block">
+        <input type="text" value="Search">
+        <input type="submit" value="Search" title="Search">
+      </div>
+      <h1 class="header-logo"><a href="index.html" title="Logo">LinYiLogo</a></h1>
+    </div>
+    <ul id="nav" class="mainnav2">
+      <li class="on"><a href="#" class="mainnav-tab">注册</a></li>
+      <li><a href="index.html" class="mainnav-tab">首页</a></li>
+      <li><a href="#" class="mainnav-tab">联系我们</a></li>
+    </ul>
+  </div>
+  <!-- //header -->
+  <!-- container -->
+  <div id="container">
+    <div id="content">
+      <div class="register">
+        <div class="register_lft">
+          <form action="">
+            <fieldset>
+              <legend>Register</legend>
+              <div class="ipt_area">
+                <label for="ipt" class="rg_ipt_txt">邮箱</label>
+                <input name="" type="email" value="" id="ipt" class="rg_ipt" style="width:202px">
+                <span class="email_suffix">@linyiweb.com</span>
+                <span class="ipt_promt"></span>
+              </div>
+              <p class="ipt_promt_txt">4-16位的数字、字母、点、减号或下划线组成</p>
+              <div class="ipt_area">
+                <label for="ipt3" class="rg_ipt_txt">密码</label>
+                <input type="password" name="" value="" id="ipt3" class="rg_ipt">
+                <span class="ipt_promt2">请输入密码</span>
+              </div>
+              <p class="ipt_promt_txt">6-16位字母、数字、符号组成，字母区分大小写</p>
+              <div class="ipt_area">
+                <label for="ipt4" class="rg_ipt_txt">确认密码</label>
+                <input type="password" name="" value="" id="ipt4" class="rg_ipt">
+                <span class="ipt_promt2">两次输入的密码不一致</span>
+              </div>
+              <p class="accept"><input id="checkbox" type="checkbox" class="ico_keepid"><label for="checkbox" class="keeptxt">我已阅读并接受</label><a href="#" class="keepid">《搜狗用户协议》</a></p>
+              <a href="#" class="btn_register">注&nbsp;册</a>
+            </fieldset>
+          </form>
+        </div>
+        <div class="register_rgt">
+          <span class="register_rgt_txt">已有账号？</span>
+          <a href="#" class="btn_login2">登陆</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //container -->
+  <!-- footer -->
+  <div id="footer">
+    <div class="ft-bx">
+      <p>Copyright 2010 sgcg.com.cn,All right reserverd.<br>北京首钢建设集团有限公司 版权所有<br><a href="#">京ICP备12036434号</a>  京公网安备11040100008号</p>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- goto_top -->
+  <a href="#" class="btn_gotop" style="display:none"><span class="btn_gotop_arr">返回顶部</span></a>
+  <!-- //goto_top -->
+</div>
+</body>
+</html>
