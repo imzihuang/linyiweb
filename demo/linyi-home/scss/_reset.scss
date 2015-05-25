@@ -5,7 +5,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	font:14px Microsoft Yahei, Arial, sans-serif;
 }
-body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, form, p, th, td {
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, form, p, th, td ,fieldset{
 	margin: 0;
 	padding: 0;
 }
@@ -21,6 +21,9 @@ input::-ms-clear, input::-ms-reveal {
 textarea {
 	overflow: auto;
 }
+fieldset{border:0}
+.blind{visibility:hidden;overflow:hidden;position:absolute;left:-999px;width:0;height:0;font-size:0;line-height:0}
+legend{visibility:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
